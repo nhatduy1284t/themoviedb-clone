@@ -1,0 +1,114 @@
+.header {
+}
+
+.home-banner .content-wrapper {
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/kSNojkWwSZWsYv0Xj1gcq88okzY.jpg");
+}
+
+/* SLIDERS */
+
+.background-image-slider {
+
+  background-repeat: no-repeat;
+}
+
+.sliders .heading h1 {
+  font-size: 24px;
+}
+
+.btn-film.ant-btn {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.btn-film.ant-btn span {
+  transform: translateY(-2px);
+}
+
+.switch {
+  width: 150px;
+}
+
+.switch .ant-switch-inner {
+  font-size: 20px;
+}
+
+.slider-trailers {
+  position: relative;
+  padding-top: 20px;
+
+  min-height: 330px;
+}
+
+.slider-trailers::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  background-color: rgba(3, 37, 65, 0.65);
+}
+
+.slider-trailers .heading {
+  position: relative;
+  z-index: 10;
+}
+.slider-trailers .slick-slider {
+  z-index: 10;
+}
+
+.slider-trailers .title {
+  margin-top: 10px;
+}
+
+.slider-trailers h1,
+.slider-trailers p {
+  color: white;
+  font-size: 16px;
+}
+
+.slider-trailers h1 {
+  font-size: 18px;
+}
+
+.slider-trailers p {
+  font-size: 16px;
+}
+
+
+.slider-trending {
+  margin-top: 30px;
+}
+
+.slider-trending .heading {
+  margin-bottom: 16px;
+}
+
+.modal-trailer {
+  height: 100%;
+  width: 75%!important;
+  top: 0;
+}
+.modal-trailer .ant-modal-content {
+  height: 100%;
+}
+
+iframe.trailer {
+  width:100%;
+  height: 100%;
+}
+
+.modal-trailer .ant-modal-body{
+  padding: 0;
+ width: 100%;
+  height: 100%;
+}
